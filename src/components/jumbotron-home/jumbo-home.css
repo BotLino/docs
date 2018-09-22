@@ -3,6 +3,7 @@
     background-color: #554c45;
     height: 100vh;
     position: relative;
+    z-index: -1;
 }
 
 .jumbotron-home h1 {

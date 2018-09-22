@@ -1,3 +1,17 @@
 nav {
-    background-color: #b0c278
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#nav-container {
+    
+}
+
+.thumb {
+    padding-top: .13em;
+    padding-left: .1em;
+    width: 2em;
+}
+
+nav li {
+    color: #d3d3cb
 }

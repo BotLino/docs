@@ -1,0 +1,23 @@
+.home-nav {
+  position: fixed;
+  top: 0;
+  box-shadow: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  transition: all 300ms linear;
+}
+
+.home-nav #nav-links {
+  transition: all 300ms linear;
+}
+
+.active {
+  visibility: visible;
+  display: block;
+  background-color: rgb(47,41,43);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+}
+
+.active #nav-links {
+  visibility: visible;
+}
