@@ -11,6 +11,7 @@ export default class JumboHome extends Component {
             <img className='logo-img' src={img1} alt='Logo Lino' />
             <h1>Lino, o Bot da Universidade</h1>
         </div>
+        <div className='jumbo-overlay' />
       </div>
     )
   }
