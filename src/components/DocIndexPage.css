@@ -1,8 +1,3 @@
-.doc-list {
-    height: 100vh;
-    overflow: hidden;
-}
-
 .doc-list .row {
     margin-bottom: 0;
     height: 100%;
@@ -10,8 +5,9 @@
 
 .doc-navigation {
     background-color: #dcd4bd;
-    position: relative;
+    position: fixed;
     height: 100%;
+    padding-bottom: 1em;
 }
 
 .doc-navigation li {
@@ -28,8 +24,4 @@
 
 .doc-navigation .doc-title {
     font-size: 1.2em;
-}
-
-.doc-content {
-    overflow-y: auto;
 }

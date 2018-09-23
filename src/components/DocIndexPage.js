@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./navbar/Navbar";
+import Markdown from './markdown/Markdown'
 import "./DocIndexPage.css";
 
 export default class DocIndexPage extends Component {
@@ -37,7 +38,10 @@ export default class DocIndexPage extends Component {
           <div className="col s3 doc-navigation">
             <ul className="doc-index">{list}</ul>
           </div>
-          <div className="col s9 doc-content">BBBBBBB</div>
+          <div className="col s9 push-s3 doc-content container">
+            <h3 className='center aligned'>Documento de Visão</h3>
+            <Markdown file='documento-de-visao' />
+          </div>
         </div>
       </div>
     );
