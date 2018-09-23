@@ -9,6 +9,10 @@ body {
   font-family: 'Palanquin Dark', sans-serif;
 }
 
+p, p>*, a {
+  font-family: 'Palanquin', sans-serif;
+}
+
 html, body {
   overflow-x: hidden;
 }
