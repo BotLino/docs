@@ -9,6 +9,7 @@
     "react": "^16.5.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.5.2",
+    "react-markdown": "^3.6.0",
     "react-materialize": "^2.4.5",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5"

@@ -1,4 +1,35 @@
 .doc-list {
-    width: 100%;
-    background-color: purple;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.doc-list .row {
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.doc-navigation {
+    background-color: #dcd4bd;
+    position: relative;
+    height: 100%;
+}
+
+.doc-navigation li {
+    line-height: 2em;
+}
+
+.doc-index {
+    margin-left: 1em;
+}
+
+.doc-index-item {
+    font-family: 'Palanquin', sans-serif
+}
+
+.doc-navigation .doc-title {
+    font-size: 1.2em;
+}
+
+.doc-content {
+    overflow-y: auto;
 }
