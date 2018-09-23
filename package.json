@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.0",
     "gh-pages": "^2.0.0",
     "react": "^16.5.2",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.5.2",
     "react-materialize": "^2.4.5",
     "react-router-dom": "^4.3.1",

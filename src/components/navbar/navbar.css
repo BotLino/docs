@@ -1,9 +1,12 @@
 nav {
+    box-shadow: 0 3px 5px rgba(0,0,0,0);
     background-color: rgba(0, 0, 0, 0);
+    transition: all 300ms linear;
 }
 
-#nav-container {
-    
+.nav-wrapper {
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 .thumb {
@@ -14,4 +17,9 @@ nav {
 
 nav li {
     color: #d3d3cb
+}
+
+.active {
+  background-color: rgb(47,41,43);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.5);
 }

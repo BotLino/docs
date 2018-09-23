@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import JumboHome from './jumbotron-home/JumboHome'
 import Navbar from './navbar/Navbar'
+import Showcase from './showcase/showcase'
 import './HomePage.css'
 
 class HomePage extends Component {
@@ -38,10 +39,10 @@ class HomePage extends Component {
     const { scrolled } = this.state;
     return (
       <div className="Home">
-        <div className={`home-nav ${scrolled ? "active" : ""}`}>
-          <Navbar />
-        </div>
+        <Navbar active={scrolled}/>
         <JumboHome />
+        <h2 className='section-title center-align'>Utilização</h2>
+        <Showcase />
         <div style={{ height: "100em" }} />
       </div>
     );

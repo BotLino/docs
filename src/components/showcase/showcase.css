@@ -1,0 +1,29 @@
+.showcase-section {
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 5em;
+}
+
+.showcase-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.showcase-section .showcase-img {
+    width: 15em;
+    z-index: -1;
+}
+
+.showcase-title {
+    font-size: 1.5em;
+}
+
+.showcase-title, .showcase-text {
+    text-align: right;
+}
+
+.showcase-text {
+    font-family: 'Palanquin', sans-serif;
+}

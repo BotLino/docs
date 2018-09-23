@@ -1,12 +1,19 @@
 .jumbotron-home {
     margin: 0;
     height: 100vh;
-    position: relative;
+    position: absolute;
+    top: 0;
+    width: 100%;
     z-index: -1;
     background-image: url('../../assets/images/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed
+}
+
+.jumbo-wrapper {
+    height: 90vh;
+    width: 100%;
 }
 
 .jumbo-overlay {
