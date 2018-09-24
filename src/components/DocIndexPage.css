@@ -14,14 +14,20 @@
     line-height: 2em;
 }
 
-.doc-index {
-    margin-left: 1em;
+.doc-index-item {
+    font-family: 'Palanquin', sans-serif;
+    padding-left: 1em;
+    cursor: pointer;
 }
 
-.doc-index-item {
-    font-family: 'Palanquin', sans-serif
+.doc-index-item:hover {
+    border-left: 5px solid #b0c278;
 }
 
 .doc-navigation .doc-title {
     font-size: 1.2em;
+}
+
+.doc-content {
+    padding-left: 5em;
 }

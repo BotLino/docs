@@ -16,3 +16,7 @@ p, p>*, a {
 html, body {
   overflow-x: hidden;
 }
+
+blockquote {
+  border-left-color: #b0c278;
+}

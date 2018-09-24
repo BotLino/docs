@@ -35,10 +35,10 @@ export default class DocIndexPage extends Component {
       <div className="doc-list">
         <Navbar active={true} />
         <div className="row">
-          <div className="col s3 doc-navigation">
+          <div className="col s2 doc-navigation">
             <ul className="doc-index">{list}</ul>
           </div>
-          <div className="col s9 push-s3 doc-content container">
+          <div className="col s9 push-s2 doc-content container">
             <h3 className='center aligned'>Documento de Visão</h3>
             <Markdown file='documento-de-visao' />
           </div>
