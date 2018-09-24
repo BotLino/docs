@@ -19,7 +19,7 @@ class Navbar extends Component {
                 <Link to='/all'>Documentos</Link>
               </li>
               <li>
-                <a href="#">Contribuidores</a>
+                <Link to="/teste">Contribuidores</Link>
               </li>
             </ul>
           </div>
