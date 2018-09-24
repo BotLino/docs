@@ -1,18 +1,26 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './docs-list.css'
 
 
 const docs = [
-    { title: "Abertura", contents: ["TAP", "EAP", "Visão Geral do Produto"] },
+    { title: "Abertura", contents: [
+        { name: "TAP", link: "#" },
+        { name: "EAP", link: "#" },
+        {name: "Visão Geral do Produto", link: "#"}
+    ]},
     {
         title: "Projeto",
         contents: [
-            "Plano Metodológico",
-            "Documento de Visão",
-            "Documento de Arquitetura"
+            { name: "Plano Metodológico", link: "#" },
+            { name: "Documento de Visão", link: "/doc-visao" },
+            { name: "Documento de Arquitetura", link: "/doc-arquitetura" }
         ]
     },
-    { title: "Roadmap", contents: ["Roadmap Geral", "Roadmap dos Papéis"] }
+    { title: "Roadmap", contents: [
+        { name: "Roadmap Geral", link: "#" },
+        { name: "Roadmap dos Papéis", link: "#" }
+    ]}
 ];
 const list = docs.map((val, i) => {
     return (
@@ -21,7 +29,7 @@ const list = docs.map((val, i) => {
             <ul className="doc-index">
                 {val.contents.map((content, j) => {
                     return <li key={j} className={`doc-index-item`}>
-                        {content}
+                        <Link to={content.link}>{content.name}</Link>
                     </li>;
                 })}
             </ul>
