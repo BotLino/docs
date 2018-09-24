@@ -3,46 +3,22 @@ import Navbar from "./navbar/Navbar";
 import DocList from './docs-list/docs-list'
 import Markdown from './markdown/Markdown'
 import "./DocIndexPage.css";
+import DocVisao from "./doc-visao/doc-visao";
 
 export default class DocIndexPage extends Component {
   render() {
-    const docs = [
-      { title: "Abertura", contents: ["TAP", "EAP", "Visão Geral do Produto"] },
-      {
-        title: "Projeto",
-        contents: [
-          "Plano Metodológico",
-          "Documento de Visão",
-          "Documento de Arquitetura"
-        ]
-      },
-      { title: "Roadmap", contents: ["Roadmap Geral", "Roadmap dos Papéis"] }
-    ];
-    const list = docs.map((val, i) => {
-      return (
-      <li key={i} className="doc-title">
-          {val.title}
-        <ul className="doc-index">
-          {val.contents.map((content, j) => {
-            return <li key={j} className={`doc-index-item`}>
-                {content}
-              </li>;
-          })}
-        </ul>
-      </li>
-      )
-    });
-    return (
-      <div className="doc-list">
-        <Navbar active={true} />
-        <div className="row">
-          <DocList />
-          <div className="col s9 push-s2 doc-content container">
-            <h3 className='center aligned'>Documento de Visão</h3>
-            <Markdown file='documento-de-visao' />
-          </div>
-        </div>
-      </div>
-    );
+    return <div>
+      <DocVisao />
+    </div>;
+    // <div className="doc-list">
+      //   <Navbar active={true} />
+      //   <div className="row">
+      //     <DocList />
+      //     <div className="col s9 push-s2 doc-content container">
+      //       <h3 className='center aligned'>Documentos</h3>
+      //     </div>
+      //   </div>
+      // </div>
+      
   }
 }
