@@ -5,7 +5,7 @@ import './docs-list.css'
 
 const docs = [
     { title: "Abertura", contents: [
-        { name: "TAP", link: "#" },
+        { name: "TAP", link: "/doc-tap" },
         { name: "EAP", link: "#" },
         {name: "Visão Geral do Produto", link: "#"}
     ]},

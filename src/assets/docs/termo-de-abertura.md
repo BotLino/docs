@@ -37,11 +37,11 @@ O Bot Lino visa facilitar o processo para tirar dúvidas frequentes da comunidad
 
 Estão entre os requisitos e alto nível:
 
-- [ ] Interação através de linguagem natural para uma melhor usabilidade
-- [ ] Os fluxos de conversas sejam objetivos e práticos
--	[ ] Construir personalidade do Bot
-- [ ] A captura de informações contidas em __websites__ para incrementar a capacidade do Bot
-- [ ] A coleta de métricas para evolução do Bot
+<li>Interação através de linguagem natural para uma melhor usabilidade</li>
+<li>Os fluxos de conversas sejam objetivos e práticos</li>
+<li>Construir personalidade do Bot</li>
+<li>A captura de informações contidas em __websites__ para incrementar a capacidade do Bot</li>
+<li>A coleta de métricas para evolução do Bot</li>
 
 ## 6. Riscos
 Na estimativa de riscos deste projeto, opta-se por estipular um padrão para a avaliação de probabilidade e impacto, servindo assim na priorização de riscos. Sendo assim, seguem-se as tabelas:
@@ -151,9 +151,9 @@ Levando em conta 10% de risco, **o valor final para a estimativa de custo é de 
 
 ### 8.1. Usuários
 
-- Discentes
-- Doscentes
-- Servidores
+<li>Discentes</li>
+<li>Doscentes</li>
+<li>Servidores</li>
 
 ### 8.2. Equipe
 
@@ -174,9 +174,9 @@ Levando em conta 10% de risco, **o valor final para a estimativa de custo é de 
 
 Para o projeto ser aprovado, ele deve atingir as seguintes metas:
 
-- Ter a possibilidade de ser acessado pelos mensageiros Telegram e Facebook Messenger.
-- Ter implementado as funcionalidades definidas pelo escopo do projeto.
-- Atender as especificações dos requisitos levantados.
+<li>Ter a possibilidade de ser acessado pelos mensageiros Telegram e Facebook Messenger.</li>
+<li>Ter implementado as funcionalidades definidas pelo escopo do projeto.</li>
+<li>Atender as especificações dos requisitos levantados.</li>
 
 ## 10. Referências
 
