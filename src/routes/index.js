@@ -14,6 +14,7 @@ export default () => (
             <Route path="/doc-visao" exact render={props => <DocVisao {...props} />} />
             <Route path="/doc-arquitetura" exact render={props => <DocArq {...props} />} />
             <Route path="/doc-tap" exact render={props => <DocTap {...props} />} />
+            <Route path="/doc-escopo" exact render={props => <DocTap {...props} />} />
         </Switch>
     </BrowserRouter>
 );
