@@ -1,5 +1,3 @@
-# Escopo Inicial do Projeto
-
 | Data | Versão | Descrição | Autor |
 |:----:|:------:|:---------:|:-----:|
 |01/09/2018|0.0.2|Criação do Escopo| Letícia de Souza|

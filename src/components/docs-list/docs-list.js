@@ -8,7 +8,7 @@ const docs = [
         { name: "TAP", link: "/doc-tap" },
         { name: "EAP", link: "#" },
         {name: "Visão Geral do Produto", link: "#"},
-        {name: "Escopo do Projeto", link: "#" }
+        {name: "Escopo do Projeto", link: "/doc-escopo" }
     ]},
     {
         title: "Projeto",
