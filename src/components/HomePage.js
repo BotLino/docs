@@ -3,6 +3,7 @@ import JumboHome from './jumbotron-home/JumboHome'
 import Navbar from './navbar/Navbar'
 import Showcase from './showcase/showcase'
 import './HomePage.css'
+import Contributors from './contributors/contributors';
 
 class HomePage extends Component {
   constructor() {
@@ -43,7 +44,9 @@ class HomePage extends Component {
         <JumboHome />
         <h2 className='section-title center-align'>Utilização</h2>
         <Showcase />
-        <div style={{ height: "100em" }} />
+        <h2 className='section-title center-align'>Contribuidores</h2>
+        <Contributors />
+        <div style={{ height: "10em" }} />
       </div>
     );
   }
