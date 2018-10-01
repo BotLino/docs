@@ -9,7 +9,7 @@ export default class Showcase extends Component {
   render() {
     return (
     <div className="row showcase-section container">
-        <ScrollAnimation animateIn='slideInLeft' animateOut='slideOutLeft' offset={10}>
+            <ScrollAnimation animateIn='slideInLeft' animateOnce={true} offset={10}>
             <div className="col s6 showcase-caption">
                 <div className="showcase-title">
                     Ta com fome? Vamos ver o que tem no Restaurante!
@@ -21,7 +21,7 @@ export default class Showcase extends Component {
                 </div>
             </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' offset={10}>
+        <ScrollAnimation animateIn='slideInRight' animateOnce={true} offset={10}>
             <img className="col s4 push-s2 showcase-img" src={show} />
         </ScrollAnimation>
       </div>

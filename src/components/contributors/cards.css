@@ -13,6 +13,54 @@
     width: 15em;
   }
 
-.card-sobre .image {
+.card-sobre .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+.card-sobre .background {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color: #000000;
+  transition: .5s ease;
+  opacity: 0;
 
 }
+
+.card-sobre:hover .background {
+  opacity: 0.5;
+}
+
+.card-sobre .flow-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    word-wrap: break-word;
+
+    }
+
+.card-sobre:hover .flow-text {
+  opacity: 1;
+}
+
+.card-sobre #Nome{
+  font-size: 2em;
+  margin-bottom: -2em;
+  padding: 0.6em;
+  }
