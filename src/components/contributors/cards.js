@@ -15,20 +15,12 @@ export default class Cards extends Component {
                 className="image"
             />
 
-            {/* <div className="overlay">
+            <div className="overlay">
               <div className="background" />
               <div className="flow-text " id="Nome">
                 {this.props.name}
               </div>
-
-              <div className="flow-text " id="Cargo">
-                {this.props.title}
-              </div>
-
-              <div className="flow-text" id="TextoCard">
-                {this.props.text}
-              </div>
-            </div> */}
+            </div>
           </div>;
 
     }
