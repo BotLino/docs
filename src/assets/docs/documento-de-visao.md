@@ -14,20 +14,20 @@
 | 28/08/2018 |   1.11  | Revisão do tópico 2.3 | Gabriel Braga |
 | 06/09/2018 |   2.0  | Revisão do tópico 2.1, 3, 3.4, 8.1, 8.2 | Matheus Blanco |
 
-# 1. Introdução
+#### 1. Introdução
 
 <p aligng="justify"> &emsp;&emsp;O documento de visão define o escopo de alto nível e o propósito do software a ser desenvolvido. Esse visa estabelecer as expectativas e reduzir os riscos do produto protegendo o cliente e os desenvolvedores do projeto.</p>
 
-## 1.1 Finalidade
+##### 1.1 Finalidade
 
 <p aligng="justify"> &emsp;&emsp;O documento presente tem, por finalidade, apresentar e estabelecer uma visão ampla sobre o ChatBot Lino de modo que deixe claro sua proposta, características, utilidades e funcionalidades.</p>
 
-## 1.2 Escopo
+##### 1.2 Escopo
 
 <p aligng="justify"> &emsp;&emsp;O ChatBot Lino é um projeto realizado para as disciplinas Métodos de Desenvolvimento de <i>Software</i> (MDS) e Engenharia de Produto de <i>Software</i> (EPS), do curso Engenharia de <i>Software</i> da Faculdade UnB Gama (FGA) da Universidade de Brasília (UnB).</p>
 <p aligng="justify"> &emsp;&emsp;O projeto, a ser realizado pela equipe 4, composta por alunos das duas disciplinas, e com orientação da professora Carla Rocha possui como objetivo a comunicação direta com o aluno matriculado na instituição de ensino superior. A partir da interação com o ChatBot, o usuário poderá requisitar deste serviços, ajudas, notícias e informes relacionados à faculdade e à universidade, como o passo-a-passo necessário para a emissão de determinado documento ou informações sobre a alimentação provida pelo Restaurante Universitário.
 
-## 1.3 Definições, Acrônimos e Abreviações
+##### 1.3 Definições, Acrônimos e Abreviações
 
 * UnB - Universidade de Brasília
 * MDS - Métodos de Desenvolvimento de <i>Software</i>
@@ -35,7 +35,7 @@
 * Lino - O nome do ChatBot
 * ChatBot - Programa de computador capaz de conduzir uma conversação através de via auditiva ou texto
 
-## 1.4 Referências
+##### 1.4 Referências
 
 >MINISTÉRIO DA SAÚDE - DEPARTAMENTO DE INFORMÁTICA. Coordenação-Geral de Análise e Manutenção. Guia de Preenchimento: Documento de Visão de Sistema. [S.l.: s.n.], 2018. 1 p;
 
@@ -43,8 +43,8 @@
 
 >2018.1-DR-DOWN: Documento de Visão. 2018. Disponível em: <a href="https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md"target="_blank">https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md</a>. Acesso em: 2 de set. 2018;
 
-# 2. Posicionamento
-## 2.1 Oportunidade de Negócio
+#### 2. Posicionamento
+##### 2.1 Oportunidade de Negócio
 
 <p align="justify"> &emsp;&emsp;Atualmente, as informações são repassadas para os estudantes através dos murais e redes sociais da Universidade. Para obter tais informações, deve-se acessar o portal Matrícula Web e em alguns casos comparecer na secretaria para retirada.</p>
 
@@ -52,7 +52,7 @@
 
 <p align="justify"> &emsp;&emsp;O ChatBot oferecerá o serviço automatizado de alertar os alunos a cerca de informações importantes sobre a universidade, além de fornecer instruções necessárias para a visualização e retirada de documentos. Dessa forma, aumenta-se a velocidade e a facilidade de acesso à documentação e informação, atualmente fornecida pela secretaria.</p>
 
-## 2.2 Descrição do Problema
+##### 2.2 Descrição do Problema
 <table class="tg">
   <tr>
     <td class="tg-s6z2">O problema de</td>
