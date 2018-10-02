@@ -3,7 +3,9 @@
 | 02/09/2018 | 1.0 | Criação do documento com template inicial  |Bruna Pinos, Guilherme Lacerda e Ícaro Oliveira|
 | 15/09/2018 | 1.1 | Criação do documento com template inicial  |Bruna Pinos, Guilherme Lacerda e Ícaro Oliveira|
 
-#### Épicos
+# Backlog do Produto
+
+## Épicos
 
 |ID| DESCRIÇÃO|
 |:--:|:--:|
@@ -11,7 +13,7 @@
 |EP02|Gerenciamento de conversas|
 |EP03|Monitoramento em uso|
 
-#### Features
+## Features
 
 |ID|DESCRIÇÃO|ÉPICO|
 |:--:|:---:|:---:|
@@ -26,7 +28,7 @@
 |FT10|Criação de relatórios|EP03|
 |FT11|Adaptar o Lino para mais de um mensageiro| EP01 & EP02|
 
-#### Histórias de Usuários
+## Histórias de Usuários
 
 |ID|Tipo|Eu, como|desejo|para|Priorização|_Feature_|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -55,7 +57,7 @@
 |US23|Não Funcional|Lino|buscar as informações sobre calendário da UnB no semestre| para transferir a informação ao usuário solicitante|_Must Have_|FT03, FT04, FT05, FT06 & FT07|
 |US24|Não Funcional|Lino|transformar o PDF do cardápio em texto| para informar o usuário| _Must Have_|FT03, FT04, FT05, FT06 & FT07|
 
-#### Intents
+## Intents
 
 | ID | Feature | Intent | Utterances | Entities | Actions |
 |:--:|:------:|:------:|:----------:|:--------:|:-------:|
@@ -68,5 +70,6 @@
 | I07 | FT05| Tirar dúvida sobre o período de matrícula | O período de matrícula é| periodo, matricula |Buscar período de matrícula e enviar ao solicitante |
 | I08 | FT03 | Tirar dúvida sobre o período de trancamento de matéria | O período de trancamento de matéria é ... Porém, se for um caso especial, comunique-se com a secretaria | periodo, trancamento de matéria | Buscar período de trancamento de materia e enviar ao solicitante |
 | I09 | FT03 | Tirar dúvida sobre o período de trancamento geral | O período de trancamento geral de matrícula é ... | periodo, trancamento geral | Buscar período de trancamento geral e enviar ao solicitante |
-| I10 | FT04 | Saber informações do funcionamento de estágio | No caso de estágios não obrigatórios, você deve fazer... Se for obrigatório, siga... | - | - |
+| I10 | FT04 | Saber informações do funcionamento de estágio | No caso de estágios não obrigatórios, você deve fazer... Se for obrigatório, siga... | - | - | 
 | I11 | FT07 | Tirar duvida sobre o período de monitoria | O período de inscrição para monitoria é... | periodo, monitoria |Buscar período de monitoria e enviar ao solicitante |
+
