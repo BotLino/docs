@@ -106,9 +106,9 @@ No projeto: a <i>Sprint</i> tem início no sábado e seu término no sábado seg
 
 ##### Planejamento da <i>Sprint</i>
 
-- São reuniões onde o <i>Scrum Master</i>, em conjunto com o <i>Product Owner</i>, decide as funcionalidades e atividades que deverão ser realizadas pela equipe de Desenvolvimento e também avaliadas quais melhorias devem ser feitas.
-- O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas.
-- É definido também, as duplas que trabalharão em conjunto (<i>Pair Programming</i>).
+São reuniões onde o <i>Scrum Master</i>, em conjunto com o <i>Product Owner</i>, decide as funcionalidades e atividades que deverão ser realizadas pela equipe de Desenvolvimento e também avaliadas quais melhorias devem ser feitas.
+O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas.
+É definido também, as duplas que trabalharão em conjunto (<i>Pair Programming</i>).
 
 ##### <i>Daily Meeting</i>
 
