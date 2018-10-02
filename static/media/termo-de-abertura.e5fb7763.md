@@ -11,40 +11,40 @@
 | 07/09/2018 | 1.8 | Construção do tópico 6 | Ícaro Oliveira |
 | 08/09/2018 | 1.9 | Construção do tópico 7 | Ícaro Oliveira |
 | 08/09/2018 | 2.0 | Finalização do documento com os tópicos 9 e 10 | Guilherme Augusto |
+| 29/09/2018 | 2.1 | Refatoração do documento: escrita, formatação e melhoria de texto | Letícia de Souza |
 
+#### 1. Introdução
 
-# Termo de abertura de Projeto
+O objetivo do documento é informar os propósitos, objetivos e requisitos de alto nível do projeto, além de descrever especificações de planejamento do novo bot da universidade, o Lino, companheiro e ajudante da comunidade FGA.
 
-## 1. Introdução
+#### 2. Descrição
 
-O documento tem como objetivo informar os propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do projeto do Bot Lino, companheiro e ajudante da comunidade FGA.
+O Lino é um bot que visa orientar, alertar e tirar dúvidas a respeito de assuntos mais recorrentemente procurados na Universidade de Brasília - Campus FGA. Para apoio ao Bot, também será produzido um painel de controle de métricas, que acompanha a eficiência dele durante seu uso em produção.
 
-## 2. Descrição
+#### 3. Propósito e Justificativa
 
-O projeto Lino é um bot que visa orientar, alertar e tirar dúvidas a respeito dos assuntos mais recorrentemente procurados na Universidade de Brasília - Campus FGA. Para apoio ao Bot, um painel de controle de métricas que acompanha sua eficiência durante seu uso em produção.
+O público em geral da comunidade FGA, possui dificuldades em sanar, e até mesmo acessar mecanismos que retirem suas dúvidas frequentes sobre assuntos acadêmicos gerais. Os servidores da FGA ainda não possuem um canal informal que dissemine informações a respeito de atividades disponibilizadas por eles aos alunos.
 
-## 3. Propósito e Justificativa
+Atualmente, o mais comum é que os alunos recebam algumas informações acadêmicas através de email, ou que acessem sites oficiais da universidade para obter informações mais específicas. Entretanto, com a popularização de menssageiros,  como o Telegram e o Messenger, é comum que as pessoas se mantenham mais atentas e atendam mais rapidamente à mensagens informais através desses mensageiros.   
 
-O público em geral da comunidade FGA possui dificuldades em relação à dúvidas frequentes sobre os sistemas contidos nela, como a secretaria e o Restaurante Universitário.
-Além disso, os servidores da FGA carecem de um canal de comunicação que seja rápido e mais informal que a tradicional lista de email.
-Logo, é ideal propor uma solução com foco em ter uma melhor experiência de usuário no processo das dúvidas, além de conter uma interação mais rápida e prática para avisos rápidos de servidores para alunos.
+#### 4. Objetivos
 
-## 4. Objetivos
+O obejtivo principal é facilitar o processo de retirada de dúvidas frequentes da comunidade FGA, minimizando tempo e esforço de seus usuários, facilitando o acesso à informações relevantes através de mensagens rápidas.
 
-O Bot Lino visa facilitar o processo para tirar dúvidas frequentes da comunidade, tendo uma interação direta para que as dúvidas sejam supridas pelo Bot para economia de tempo e esforço de seus usuários, propondo também facilitar a comunicação entre o professor e o aluno através de mensagens rápidas.
+Dessa forma surge o Lino, o bot da FGA, para atender à necessidades, propondo uma solução com foco em experiência de usuário, promovendo uma interação mais rápida e prática para avisos rápidos de servidores para alunos.
 
-## 5. Requisitos de Alto Nível
+#### 5. Requisitos de Alto Nível
 
-Estão entre os requisitos e alto nível:
+Estão dentre os requisitos de alto nível:
 
 <li>Interação através de linguagem natural para uma melhor usabilidade</li>
-<li>Os fluxos de conversas sejam objetivos e práticos</li>
-<li>Construir personalidade do Bot</li>
-<li>A captura de informações contidas em __websites__ para incrementar a capacidade do Bot</li>
-<li>A coleta de métricas para evolução do Bot</li>
+<li>Fluxos de conversas objetivos e práticos</li>
+<li>Construção da personalidade do Lino</li>
+<li>Captura de informações contidas em __websites__ para incrementar a capacidade do Lino</li>
+<li>Coleta de métricas para evolução do Lino</li>
 
-## 6. Riscos
-Na estimativa de riscos deste projeto, opta-se por estipular um padrão para a avaliação de probabilidade e impacto, servindo assim na priorização de riscos. Sendo assim, seguem-se as tabelas:
+#### 6. Riscos
+Na estimativa de riscos do projeto, opta-se por estipular um padrão para a avaliação de probabilidade e impacto, através da priorização de riscos, como demonstrado na tabela abaixo:
 
 | Probabilidade (P)         | Peso |
 |:---------------------:|:----:|
@@ -74,11 +74,11 @@ A seguir, a tabela para os riscos identificados:
 |Integração do time|Realizar feedbacks constantes para facilitar a comunicação e o acompanhamento constante dos membros;<br> Realização de dailys presenciais e remotas|
 |Configuração de ambiente|Auxiliar a equipe de desenvolvimento na configuração de suas máquinas;<br> Utilização do Docker|
 |Integração entre os serviços|Treinamento sobre as tecnologias utilizadas; <br> Auxílio técnico da equipe de EPS<br> |
-|Greve na Universidade|Continuar o desenvolvimento;<br> Replanejar o cronograma |
-|Indisponibilidade temporária de integrantes (doença, viagem)|Manter cronograma atualizado com as viagens anunciadas com antecedência;<br> Replanejar pareamento e/ou atividades do(s) membro(s) indisponíveis|
-|Grade Horária|Manter comunicação entre os membros para manter-se atualizado da agenda destes;<br> Planejar pareamento entre pessoas que tiverem grade horária parecida|
+|Greve e paralizações que interfiram no calendário acadêmico| Replanejar o cronograma |
+|Indisponibilidade de integrantes |Manter cronograma atualizado com as viagens anunciadas com antecedência;<br> Replanejar pareamento e/ou atividades do(s) membro(s) indisponíveis|
+|Grade Horária|Manter planilha de horários dos membros atualizadas;<br> Planejar pareamento entre pessoas que tiverem grade horária parecida|
 |Falta de planejamento por parte de EPS|Manter feedback e transparência constante entre os membros;<br> Dividir atividades para não sobrecarregar ninguém;<br> Pedir auxílio para a professora e/ou monitores|
-|Descomprometimento da equipe|Auxiliar equipe a manter-se comprometida; <br> Aumentar o senso de integração entre os membros; <br> Tratar individualmente com o membro;<br> Comunicar a professora em casos extremos|
+|Descomprometimento da equipe| Aumentar o senso de integração entre os membros para motivação; <br> Comunicar individualmente com o membro; <br> Comunicar a professora em casos extremos|
 |Mudança de escopo|Feedback constante com o cliente, por meio de reuniões; <br> Buscar novas alternativas para elicitação de requisitos|
 |Mudança de arquitetura|Preparar uma arquitetura adaptável, que permita mudanças sem grandes prejuízos|
 |Indefinição do escopo|Feedback com o cliente; <br> Utilização de ferramentas para visualizá-lo melhor, como mapas mentais, Canvas etc|
