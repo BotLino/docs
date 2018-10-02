@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c40b64d0.css",
   "main.css.map": "static/css/main.c40b64d0.css.map",
-  "main.js": "static/js/main.d7b3cea3.js",
-  "main.js.map": "static/js/main.d7b3cea3.js.map",
+  "main.js": "static/js/main.26f34d2c.js",
+  "main.js.map": "static/js/main.26f34d2c.js.map",
   "static/media/Abertura-Sprint-0.md": "static/media/Abertura-Sprint-0.02489b23.md",
   "static/media/Abertura-Sprint-1.md": "static/media/Abertura-Sprint-1.f789034e.md",
   "static/media/Abertura-Sprint-2.md": "static/media/Abertura-Sprint-2.3a0c57bd.md",
@@ -23,7 +23,7 @@
   "static/media/commits.md": "static/media/commits.ffe361a1.md",
   "static/media/comunicacao.md": "static/media/comunicacao.44f1f416.md",
   "static/media/documento-de-arquitetura.md": "static/media/documento-de-arquitetura.1ff625d2.md",
-  "static/media/documento-de-visao.md": "static/media/documento-de-visao.613e554d.md",
+  "static/media/documento-de-visao.md": "static/media/documento-de-visao.d119f0c1.md",
   "static/media/eap.md": "static/media/eap.45705fbd.md",
   "static/media/escopo.md": "static/media/escopo.c28c3808.md",
   "static/media/gabriel.jpg": "static/media/gabriel.9d6d6039.jpg",
@@ -36,14 +36,14 @@
   "static/media/issues.md": "static/media/issues.4a5891f5.md",
   "static/media/leticia.jpeg": "static/media/leticia.11a4f8ca.jpeg",
   "static/media/lino.png": "static/media/lino.2f8dfc5a.png",
-  "static/media/metodologia.md": "static/media/metodologia.95d1363e.md",
+  "static/media/metodologia.md": "static/media/metodologia.ef9d6f7a.md",
   "static/media/nfr.md": "static/media/nfr.589eb2b6.md",
   "static/media/path_ru.gif": "static/media/path_ru.97c9c033.gif",
   "static/media/pedro.jpeg": "static/media/pedro.7da40ce2.jpeg",
   "static/media/pull_request.md": "static/media/pull_request.d0edfb3f.md",
   "static/media/roadmap-papeis.md": "static/media/roadmap-papeis.046fe6aa.md",
-  "static/media/roadmap.md": "static/media/roadmap.46be3f70.md",
+  "static/media/roadmap.md": "static/media/roadmap.866de5bb.md",
   "static/media/template-abertura-sprint.md": "static/media/template-abertura-sprint.7086b60d.md",
   "static/media/template-fechamento-sprint.md": "static/media/template-fechamento-sprint.3bbccd5d.md",
-  "static/media/termo-de-abertura.md": "static/media/termo-de-abertura.e5fb7763.md"
+  "static/media/termo-de-abertura.md": "static/media/termo-de-abertura.b7abe9c2.md"
 }
