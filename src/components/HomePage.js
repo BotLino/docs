@@ -38,17 +38,24 @@ class HomePage extends Component {
 
   render() {
     const { scrolled } = this.state;
-    return (
-      <div className="Home">
-        <Navbar active={scrolled}/>
+    return <div className="Home">
+        <Navbar active={scrolled} />
         <JumboHome />
-        <h2 className='section-title center-align'>Utilização</h2>
+        <h2 className="section-title center-align">Sobre</h2>
+        <div className="container home-text">
+          <p>
+            O projeto Lino é um bot que visa orientar, alertar e tirar dúvidas
+            a respeito dos assuntos mais procurados na Universidade de
+            Brasília - Campus FGA. Para apoio ao Bot, um painel de controle de
+            métricas que acompanha sua eficiência durante seu uso em produção.
+          </p>
+        </div>
+        <h2 className="section-title center-align">Utilização</h2>
         <Showcase />
-        <h2 className='section-title center-align'>Contribuidores</h2>
+        <h2 className="section-title center-align">Contribuidores</h2>
         <Contributors />
         <div style={{ height: "10em" }} />
-      </div>
-    );
+      </div>;
   }
 }
 
