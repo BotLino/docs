@@ -14,6 +14,11 @@ import DocRoadmapPapeis from "../components/doc-roadmap-papeis/doc-roadmap-papei
 import DocPlanoMetodologico from "../components/doc-plano-metodologico/doc-plano-metodologico";
 import DocBacklog from "../components/doc-backlog/doc-backlog";
 import DocNfr from "../components/doc-nfr/doc-nfr";
+import DocPersonalidadeDoBot from "../components/doc-personalidade-do-bot/personalidade-do-bot";
+import DocIdentidadeVisual from "../components/doc-identidade-visual/doc-identidade-visual";
+import DocPlanoComunicacao from "../components/doc-plano-comunicacao/doc-plano-comunicacao";
+import DocEvm from "../components/doc-evm/doc-evm";
+
 export default () => (
   <BrowserRouter basename="/docs">
     <Switch>
@@ -34,31 +39,47 @@ export default () => (
       <Route path="/doc-escopo" exact render={props => <DocEsc {...props} />} />
       <Route path="/doc-canvas" exact render={props => <DocCan {...props} />} />
       <Route
-        path="/roadmap"
+        path="/doc-roadmap"
         exact
         render={props => <DocRoadmap {...props} />}
       />
       <Route
-        path="/interviews"
+        path="/doc-interviews"
         exact
         render={props => <DocEntrevistas {...props} />}
       />
       <Route
-        path="/roadmap-papeis"
+        path="/doc-roadmap-papeis"
         exact
         render={props => <DocRoadmapPapeis {...props} />}
       />
       <Route
-        path="/plano-metodologico"
+        path="/doc-plano-metodologico"
         exact
         render={props => <DocPlanoMetodologico {...props} />}
       />
       <Route
-        path="/backlog"
+        path="/doc-backlog"
         exact
         render={props => <DocBacklog {...props} />}
       />
-      <Route path="/nfr" exact render={props => <DocNfr {...props} />} />
+      <Route
+        path="/doc-personalidade-do-bot"
+        exact
+        render={props => <DocPersonalidadeDoBot {...props} />}
+      />
+      <Route path="/doc-nfr" exact render={props => <DocNfr {...props} />} />
+      <Route
+        path="/doc-identidade-visual"
+        exact
+        render={props => <DocIdentidadeVisual {...props} />}
+      />
+      <Route
+        path="/doc-plano-comunicacao"
+        exact
+        render={props => <DocPlanoComunicacao {...props} />}
+      />
+      <Route path="/doc-evm" exact render={props => <DocEvm {...props} />} />
     </Switch>
   </BrowserRouter>
 );

@@ -4,35 +4,87 @@ import "./docs-list.css";
 
 const docs = [
   {
-    title: "Abertura",
+    title: "Produto",
     contents: [
-      { name: "TAP", link: "/doc-tap" },
-      { name: "EAP", link: "/doc-eap" },
-      { name: "Escopo do Projeto", link: "/doc-escopo" },
-      { name: "Canvas do Projeto", link: "/doc-canvas" }
+      {
+        name: "TAP",
+        link: "/doc-tap"
+      },
+      {
+        name: "EAP",
+        link: "/doc-eap"
+      },
+      {
+        name: "Escopo do Projeto",
+        link: "/doc-escopo"
+      },
+      {
+        name: "Canvas do Projeto",
+        link: "/doc-canvas"
+      },
+      {
+        name: "Personalidade do Bot",
+        link: "/doc-personalidade-do-bot"
+      },
+      {
+        name: "Identidade Visual",
+        link: "/doc-identidade-visual"
+      }
     ]
   },
   {
     title: "Elicitação",
     contents: [
-      { name: "Entrevistas", link: "/interviews" },
-      { name: "Backlog", link: "/backlog" },
-      { name: "NFR", link: "/nfr" }
+      {
+        name: "Entrevistas",
+        link: "/doc-interviews"
+      },
+      {
+        name: "Backlog",
+        link: "/doc-backlog"
+      },
+      {
+        name: "NFR",
+        link: "/doc-nfr"
+      }
     ]
   },
   {
     title: "Projeto",
     contents: [
-      { name: "Plano Metodológico", link: "/plano-metodologico" },
-      { name: "Documento de Visão", link: "/doc-visao" },
-      { name: "Documento de Arquitetura", link: "/doc-arquitetura" }
+      {
+        name: "Plano Metodológico",
+        link: "/doc-plano-metodologico"
+      },
+      {
+        name: "Documento de Visão",
+        link: "/doc-visao"
+      },
+      {
+        name: "Documento de Arquitetura",
+        link: "/doc-arquitetura"
+      },
+      {
+        name: "Plano de Comunicação",
+        link: "/doc-plano-comunicacao"
+      },
+      {
+        name: "EVM",
+        link: "/doc-evm"
+      }
     ]
   },
   {
     title: "Roadmap",
     contents: [
-      { name: "Roadmap Geral", link: "/roadmap" },
-      { name: "Roadmap dos Papéis", link: "/roadmap-papeis" }
+      {
+        name: "Roadmap Geral",
+        link: "/doc-roadmap"
+      },
+      {
+        name: "Roadmap dos Papéis",
+        link: "/doc-roadmap-papeis"
+      }
     ]
   }
 ];

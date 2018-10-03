@@ -1,3 +1,7 @@
+| Data      | Versão | Descrição            | Autor       |
+| :-------: | :----: | :------------------: | :---------: |
+| 2/10/2018 | 1.0.0  | Criação do Documento | Bruna Pinos |
+
 #### Introdução e Descrição da Metodologia
 
 <p align="justify">&emsp;&emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Lino**. Abaixo, temos descritos as metodologias bases (Scrum, Extreme Programming(XP), Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.</p>
