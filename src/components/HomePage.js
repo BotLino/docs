@@ -52,7 +52,7 @@ class HomePage extends Component {
         </div>
         <h2 className="section-title center-align">Utilização</h2>
         <Showcase />
-        <h2 className="section-title center-align">Contribuidores</h2>
+        <h2 id='contributors-section' className="section-title center-align">Contribuidores</h2>
         <Contributors />
         <div style={{ height: "10em" }} />
       </div>;

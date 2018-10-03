@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import './navbar.css'
 
 const img = require('../../assets/images/lino.png')
@@ -19,7 +20,11 @@ class Navbar extends Component {
                 <Link to='/all'>Documentos</Link>
               </li>
               <li>
-                <Link to="/teste">Contribuidores</Link>
+                <AnchorLink
+                offset={() => 85}
+                href='#contributors-section'>
+                  Contribuidores
+                </AnchorLink>
               </li>
             </ul>
           </div>
