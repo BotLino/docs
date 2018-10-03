@@ -75,6 +75,14 @@ const docs = [
       {
         name: "Quadro de Conhecimentos",
         link: "/doc-quadro-de-conhecimentos"
+      },
+       {
+        name: "Abertura de Sprints",
+        link: "https://github.com/fga-eps-mds/2018.2-Lino/issues/20"
+      },
+      {
+        name: "Fechamento de Sprints",
+        link: "https://github.com/fga-eps-mds/2018.2-Lino/issues/40"
       }
     ]
   },
