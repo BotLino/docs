@@ -71,6 +71,10 @@ const docs = [
       {
         name: "EVM",
         link: "/doc-evm"
+      },
+      {
+        name: "Quadro de Conhecimentos",
+        link: "/doc-quadro-de-conhecimentos"
       }
     ]
   },

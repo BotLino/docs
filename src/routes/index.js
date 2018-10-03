@@ -18,6 +18,7 @@ import DocPersonalidadeDoBot from "../components/doc-personalidade-do-bot/person
 import DocIdentidadeVisual from "../components/doc-identidade-visual/doc-identidade-visual";
 import DocPlanoComunicacao from "../components/doc-plano-comunicacao/doc-plano-comunicacao";
 import DocEvm from "../components/doc-evm/doc-evm";
+import DocQuadroConhecimentos from "../components/doc-quadro-conhecimentos/doc-quadro-conhecimentos";
 
 export default () => (
   <BrowserRouter basename="/docs">
@@ -80,6 +81,11 @@ export default () => (
         render={props => <DocPlanoComunicacao {...props} />}
       />
       <Route path="/doc-evm" exact render={props => <DocEvm {...props} />} />
+      <Route
+        path="/doc-quadro-de-conhecimentos"
+        exact
+        render={props => <DocQuadroConhecimentos {...props} />}
+      />
     </Switch>
   </BrowserRouter>
 );
