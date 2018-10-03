@@ -12,7 +12,8 @@ import DocRoadmap from "../components/doc-roadmap-geral/doc-roadmap-geral";
 import DocEntrevistas from "../components/doc-entrevistas/doc-entrevistas";
 import DocRoadmapPapeis from "../components/doc-roadmap-papeis/doc-roadmap-papeis";
 import DocPlanoMetodologico from "../components/doc-plano-metodologico/doc-plano-metodologico";
-
+import DocBacklog from "../components/doc-backlog/doc-backlog";
+import DocNfr from "../components/doc-nfr/doc-nfr";
 export default () => (
   <BrowserRouter basename="/docs">
     <Switch>
@@ -52,6 +53,12 @@ export default () => (
         exact
         render={props => <DocPlanoMetodologico {...props} />}
       />
+      <Route
+        path="/backlog"
+        exact
+        render={props => <DocBacklog {...props} />}
+      />
+      <Route path="/nfr" exact render={props => <DocNfr {...props} />} />
     </Switch>
   </BrowserRouter>
 );

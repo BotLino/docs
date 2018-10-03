@@ -14,7 +14,11 @@ const docs = [
   },
   {
     title: "Elicitação",
-    contents: [{ name: "Entrevistas", link: "/interviews" }]
+    contents: [
+      { name: "Entrevistas", link: "/interviews" },
+      { name: "Backlog", link: "/backlog" },
+      { name: "NFR", link: "/nfr" }
+    ]
   },
   {
     title: "Projeto",

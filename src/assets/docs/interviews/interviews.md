@@ -2,8 +2,6 @@
 | :--------: | :----: | :---------------------------------------: | :----------------------------------: |
 | 25/08/2018 | 1.0    | Criação do documento com template inicial | Letícia de Souza e Guilherme Augusto |
 
-### Entrevistas com a Comunidade FGA 
-
 #### Entrevista com servidora da Secretaria da FGA
 
 ##### **Solicitação de documentos**

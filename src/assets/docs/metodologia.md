@@ -81,7 +81,7 @@
 <html>
 <ul>
 
-<li>Desenvolver as funcionalidades priorizadas pelo <i>Product Owner</i> e selecionadas pelo <i>Scrum Master</i> dentro da <i>Sprint</i>;</li>
+<li> Desenvolver as funcionalidades priorizadas pelo <i>Product Owner</i> e selecionadas pelo <i>Scrum Master</i> dentro da <i>Sprint</i>;</li>
 <li>Manter a qualidade do produto em relação a código.</li>
 
 <ul>
@@ -112,39 +112,39 @@ O esforço para realizar cada uma das tarefas é medido com a equipe e assim, es
 
 ##### <i>Daily Meeting</i>
 
-- Reuniões com o tempo determinado de 15 minutos, onde cada membro da equipe fala sobre o andamento da tarefa e seu planejamento para terminá-la.
-  - No projeto: estas reuniões ocorrem somente terça e quinta, e possuem duração de, no máximo, 20 minutos.
+Reuniões com o tempo determinado de 15 minutos, onde cada membro da equipe fala sobre o andamento da tarefa e seu planejamento para terminá-la.
+No projeto: estas reuniões ocorrem somente terça e quinta, e possuem duração de, no máximo, 20 minutos.
 
 ##### <i>Sprint Review</i>
 
-- Discussão das dificuldades, melhorias e pontos positivos durante a <i>Sprint</i>, além do levantamento das tarefas realizadas e não realizadas.
-- A avaliação geral da <i>Sprint</i> é feita pelo <i>Scrum Master</i>, porém todas os pontos (positivos, negativos e a melhorar) é debatido pela equipe.
-  - No projeto: a Review ocorre aos sábados, no mesmo dia do Planejamento da <i>Sprint</i>.
+Discussão das dificuldades, melhorias e pontos positivos durante a <i>Sprint</i>, além do levantamento das tarefas realizadas e não realizadas.
+A avaliação geral da <i>Sprint</i> é feita pelo <i>Scrum Master</i>, porém todas os pontos (positivos, negativos e a melhorar) é debatido pela equipe.
+No projeto: a Review ocorre aos sábados, no mesmo dia do Planejamento da <i>Sprint</i>.
 
 ##### <i>Pair Programming</i>
 
-- Ritual onde dois membros da equipe de Desenvolvimento, trabalham juntos para realizar uma tarefa.
-- A cada 15 minutos, um deles assume o papel de piloto, ou seja, escreve o código, e o outro assume o papel de co-piloto e dita a lógica para realizar a funcionalidade e também auxilia o piloto a pensar na melhor forma de desenvolver essa funcionalidade.
+Ritual onde dois membros da equipe de Desenvolvimento, trabalham juntos para realizar uma tarefa.
+A cada 15 minutos, um deles assume o papel de piloto, ou seja, escreve o código, e o outro assume o papel de co-piloto e dita a lógica para realizar a funcionalidade e também auxilia o piloto a pensar na melhor forma de desenvolver essa funcionalidade.
 
 ##### Integração Contínua
 
-- Prática de testar as modificações do código que foi submetida ao repositorio remoto do projeto.
-- Todo o funcionamento da integração continua é pensado e efeitvado pelo DevOps do projeto.
+Prática de testar as modificações do código que foi submetida ao repositorio remoto do projeto.
+Todo o funcionamento da integração continua é pensado e efeitvado pelo DevOps do projeto.
 
 ##### Padrão de Código
 
-- É a definição de escrita do código, de maneira a manter a homogeniedade deste.
-- A folha de estilo, documento que define esse padrão, é contruida pelo <i>Quality Assurence</i>.
+É a definição de escrita do código, de maneira a manter a homogeniedade deste.
+A folha de estilo, documento que define esse padrão, é contruida pelo <i>Quality Assurence</i>.
 
 ##### Testes
 
-- Toda a funcionalidade desenvolvida, deve ser testa, ou seja, deve ser implementados testes que prevêm funcionamento errôneo ou indesejado da funcionalidade. E esta funcionalidade deve passar em todos os testes escritos.
+Toda a funcionalidade desenvolvida, deve ser testa, ou seja, deve ser implementados testes que prevêm funcionamento errôneo ou indesejado da funcionalidade. E esta funcionalidade deve passar em todos os testes escritos.
 
 ##### <i>Kanban</i>
 
-- Metodologia que consistem em um quadro divido em <i><b>TO DO</b></i>, <i><b>DOING</b></i> e <i><b>DONE</b></i>, e em cada uma destas colunas é colocado as tarefas que devem ser feitas, as que estão no processo de ser feitas e as completas, respectivamente.
+Metodologia que consistem em um quadro divido em <i><b>TO DO</b></i>, <i><b>DOING</b></i> e <i><b>DONE</b></i>, e em cada uma destas colunas é colocado as tarefas que devem ser feitas, as que estão no processo de ser feitas e as completas, respectivamente.
 
-  - No projeto, utilizamos o <i><b>Zenhub</b></i> para contemplar esta metodologia.
+No projeto, utilizamos o <i><b>Zenhub</b></i> para contemplar esta metodologia.
 
 ##### Referências Bibliográficas
 
