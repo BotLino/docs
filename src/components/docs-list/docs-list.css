@@ -26,3 +26,7 @@
 .doc-content {
   padding-left: 5em;
 }
+
+.doc-navigation a {
+  color: black;
+}
