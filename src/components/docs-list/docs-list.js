@@ -78,11 +78,11 @@ const docs = [
       },
        {
         name: "Abertura de Sprints",
-        link: "https://github.com/fga-eps-mds/2018.2-Lino/issues/20"
+        href: "https://github.com/fga-eps-mds/2018.2-Lino/issues/20"
       },
       {
         name: "Fechamento de Sprints",
-        link: "https://github.com/fga-eps-mds/2018.2-Lino/issues/40"
+        href: "https://github.com/fga-eps-mds/2018.2-Lino/issues/40"
       }
     ]
   },
@@ -108,7 +108,7 @@ const list = docs.map((val, i) => {
         {val.contents.map((content, j) => {
           return (
             <li key={j} className={`doc-index-item`}>
-              <Link to={content.link}>{content.name}</Link>
+              {content.link ? <Link to={content.link}>{content.name}</Link> : <a href={content.href}>{content.name}</a>}
             </li>
           );
         })}
