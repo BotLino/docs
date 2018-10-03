@@ -1,11 +1,9 @@
-| Data       | Versão | Descrição            | Autor             |
-|:----------:|:------:|:--------------------:|:-----------------:|
-| 02/09/2018 | 1.0 | Criação do documento com template inicial  |Bruna Pinos, Guilherme Lacerda e Ícaro Oliveira|
-| 15/09/2018 | 1.1 | Criação do documento com template inicial  |Bruna Pinos, Guilherme Lacerda e Ícaro Oliveira|
+| Data       | Versão | Descrição                                 | Autor                                           |
+| :--------: | :----: | :---------------------------------------: | :---------------------------------------------: |
+| 02/09/2018 | 1.0    | Criação do documento com template inicial | Bruna Pinos, Guilherme Lacerda e Ícaro Oliveira |
+| 15/09/2018 | 1.1    | Criação do documento com template inicial | Bruna Pinos, Guilherme Lacerda e Ícaro Oliveira |
 
-# Backlog do Produto
-
-## Épicos
+##### Épicos
 
 |ID| DESCRIÇÃO|
 |:--:|:--:|
@@ -13,7 +11,7 @@
 |EP02|Gerenciamento de conversas|
 |EP03|Monitoramento em uso|
 
-## Features
+##### Features
 
 |ID|DESCRIÇÃO|ÉPICO|
 |:--:|:---:|:---:|
@@ -28,7 +26,7 @@
 |FT10|Criação de relatórios|EP03|
 |FT11|Adaptar o Lino para mais de um mensageiro| EP01 & EP02|
 
-## Histórias de Usuários
+##### Histórias de Usuários
 
 |ID|Tipo|Eu, como|desejo|para|Priorização|_Feature_|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -57,7 +55,7 @@
 |US23|Não Funcional|Lino|buscar as informações sobre calendário da UnB no semestre| para transferir a informação ao usuário solicitante|_Must Have_|FT03, FT04, FT05, FT06 & FT07|
 |US24|Não Funcional|Lino|transformar o PDF do cardápio em texto| para informar o usuário| _Must Have_|FT03, FT04, FT05, FT06 & FT07|
 
-## Intents
+##### Intents
 
 | ID | Feature | Intent | Utterances | Entities | Actions |
 |:--:|:------:|:------:|:----------:|:--------:|:-------:|

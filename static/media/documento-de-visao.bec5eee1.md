@@ -37,11 +37,11 @@
 
 ###### 1.4 Referências
 
->MINISTÉRIO DA SAÚDE - DEPARTAMENTO DE INFORMÁTICA. Coordenação-Geral de Análise e Manutenção. Guia de Preenchimento: Documento de Visão de Sistema. [S.l.: s.n.], 2018. 1 p;
+>MINISTÉRIO DA SAÚDE - DEPARTAMENTO DE INFORMÁTICA. Coordenação-Geral de Análise e Manutenção. Guia de Preenchimento: Documento de Visão de Sistema. S.l.: s.n., 2018. 1 p;
 
->DOCUMENTO de Visão. 2017. Disponível em: <a href="https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas" target="_blank">https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas</a>. Acesso em: 2 de set. 2018
+>DOCUMENTO de Visão. 2017. Disponível em: <a href="https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas" target="_blank">https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas.md</a>. Acesso em: 2 de set. 2018
 
->2018.1-DR-DOWN: Documento de Visão. 2018. Disponível em: <a href="https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md"target="_blank">https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md</a>. Acesso em: 2 de set. 2018;
+>2018.1-DR-DOWN: Documento de Visão. 2018. Disponível em: <a href="https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT" target="_blank">https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md</a>. Acesso em: 2 de set. 2018;
 
 ##### 2. Posicionamento
 ###### 2.1 Oportunidade de Negócio
@@ -187,13 +187,19 @@ Os usuários realizarão a interação com o Bot por meio do Telegram e Messenge
 
 ###### 3.6 Perfis dos Usuários
 
-*3.6.1 Alunos*
+<html>
+<ul>
+
+<li>Membros da comunidade acadêmica da FGA</li>
+
+<ul>
+<html>
 
 |Perfil|--|
 |:-:|:-|
-|Representantes|Alunos da Universidade de Brasilia, no campus Faculdade do Gama (FGA - UnB).|
-|Descrição|Alunos que tenham dúvidas acerca da Faculdade.|
-|Tipo|Estudantes da Universidade que tenham dúvidas e necessitem de notificações sobre o calendário do semestre.|
+|Representantes|Membros da comunidade acadêmica da FGA da Universidade de Brasilia, no campus Faculdade do Gama (FGA - UnB).|
+|Descrição|Membros da comunidade acadêmica da FGA que tenham dúvidas acerca da Faculdade.|
+|Tipo|Membros da comunidade acadêmica da FGA da Universidade que tenham dúvidas e necessitem de notificações sobre o calendário do semestre.|
 |Responsabilidades|Interagir com o Bot por meio do Telegram ou Messenger, retirar dúvidas e receber notificações.|
 |Critérios de Sucesso|Realizar interações flúidas com o Bot.|
 |Envolvimento|Alto.|
