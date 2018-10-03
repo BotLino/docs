@@ -2,16 +2,9 @@
 | :---: | :----: | :---------: |:--:|
 | 25/08/2018 |   1.0  | Criação do Documento| MDS (todos) |
 | 27/08/2018 |   1.1  | Adição dos tópicos 3, 3.2, 3.3 e 3.4 | Guilherme Marques |
-| 28/08/2018 |   1.2  | Adição da seção Introdução | Matheus Blanco |
-| 28/08/2018 |   1.3  | Adição dos tópicos 3.5.1 e 3.5.2 | Guilherme Marques |
-| 28/08/2018 |   1.4  | Revisão do tópico 1.4 | Matheus Blanco |
-| 28/08/2018 |   1.5  | Adição do tópico 3.6 | Guilherme Marques |
-| 28/08/2018 |   1.6  | Adição dos tópicos 4, 4.1 e 4.2 | Pedro Rodrigues |
-| 28/08/2018 |   1.7  | Adição dos tópicos 5 | Pedro Rodrigues |
-| 28/08/2018 |   1.8  | Revisão dos tópicos 4.2 e 5 | Pedro Rodrigues |
-| 29/08/2018 |   1.9  | Adição do tópico 3.7 e revisão dos tópicos 3.5 e 3.6 | Guilherme Marques |
-| 28/08/2018 |   1.10  | Adição do tópico 2 | Gabriel Braga |
-| 28/08/2018 |   1.11  | Revisão do tópico 2.3 | Gabriel Braga |
+| 28/08/2018 |   1.2  | Adição e revisão das seções/tópicos Introdução, 4, 4.1 e 4.2, 3.5.1, 3.5.2 1.4, 3.6, 5 e 4.2 | Matheus Blanco, Guilherme Marques, Pedro Rodrigues |
+| 28/08/2018 |   1.3  | Adição do tópico 2 e 2.3| Gabriel Braga |
+| 29/08/2018 |   1.4  | Adição do tópico 3.7 e revisão dos tópicos 3.5 e 3.6 | Guilherme Marques |
 | 06/09/2018 |   2.0  | Revisão do tópico 2.1, 3, 3.4, 8.1, 8.2 | Matheus Blanco |
 
 ##### 1. Introdução
