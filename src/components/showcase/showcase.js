@@ -3,12 +3,14 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import "./showcase.css";
 
-const show = require("../../assets/images/path_ru.gif");
+const show = require("../../assets/images/telegram.gif");
+const show2 = require("../../assets/images/facebook.gif");
 
 export default class Showcase extends Component {
   render() {
     return (
-    <div className="row showcase-section container">
+    <div>
+        <div className="row showcase-section container">
           <ScrollAnimation animateIn='slideInLeft' animateOnce={true} offset={10}>
           <div className="col s6 showcase-caption">
               <div className="showcase-title">
@@ -25,6 +27,24 @@ export default class Showcase extends Component {
             <img className="col s4 push-s2 showcase-img" src={show} />
         </ScrollAnimation>
       </div>
+      <div className="row showcase-section container">
+          <ScrollAnimation animateIn='slideInLeft' animateOnce={true} offset={10}>
+          <div className="col s6 showcase-caption">
+              <div className="showcase-title">
+                  Quer saber sobre documentações? Eu te ajudo!
+              </div>
+              <div className="showcase-text">
+                   Período de matrícula e como tirar documentações como declarações de matrícula, 
+                   são coisas que eu posso te falar!
+                   ;{")"}
+              </div>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='slideInRight' animateOnce={true} offset={10}>
+            <img className="col s4 push-s2 showcase-img" src={show2} />
+        </ScrollAnimation>
+      </div>
+    </div>
     );
   }
 }
