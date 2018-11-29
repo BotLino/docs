@@ -21,6 +21,7 @@ import DocEvm from "../components/doc-evm/doc-evm";
 import DocQuadroConhecimentos from "../components/doc-quadro-conhecimentos/doc-quadro-conhecimentos";
 import DocQualidade from "../components/doc-qualidade/doc-qualidade";
 import DocPraticasAgeis from "../components/doc-praticas-ageis/doc-praticas-ageis";
+import DocGitFlow from "../components/doc-gitflow/doc-gitflow";
 
 export default () => (
   <BrowserRouter basename="/docs">
@@ -97,6 +98,11 @@ export default () => (
         path="/doc-praticas-ageis"
         exact
         render={props => <DocPraticasAgeis {...props} />}
+      />
+      <Route
+        path="/doc-gitflow"
+        exact
+        render={props => <DocGitFlow {...props} />}
       />
     </Switch>
   </BrowserRouter>

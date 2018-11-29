@@ -81,6 +81,10 @@ const docs = [
         link: "/doc-praticas-ageis"
       },
       {
+        name: "Git Flow",
+        link: "/doc-gitflow"
+      },
+      {
         name: "Quadro de Conhecimentos",
         link: "/doc-quadro-de-conhecimentos"
       },
