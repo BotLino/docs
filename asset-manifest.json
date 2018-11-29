@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.cbe52858.css",
   "main.css.map": "static/css/main.cbe52858.css.map",
-  "main.js": "static/js/main.9018f07c.js",
-  "main.js.map": "static/js/main.9018f07c.js.map",
+  "main.js": "static/js/main.9fa5e4de.js",
+  "main.js.map": "static/js/main.9fa5e4de.js.map",
   "static/media/Abertura-Sprint-0.md": "static/media/Abertura-Sprint-0.02489b23.md",
   "static/media/Abertura-Sprint-1.md": "static/media/Abertura-Sprint-1.f789034e.md",
   "static/media/Abertura-Sprint-2.md": "static/media/Abertura-Sprint-2.3a0c57bd.md",
@@ -27,6 +27,7 @@
   "static/media/eap.md": "static/media/eap.26b93bb6.md",
   "static/media/escopo.md": "static/media/escopo.bd462746.md",
   "static/media/evm.md": "static/media/evm.ba483976.md",
+  "static/media/facebook.gif": "static/media/facebook.b782e924.gif",
   "static/media/gabriel.jpg": "static/media/gabriel.9d6d6039.jpg",
   "static/media/gitflow.md": "static/media/gitflow.d4ce7697.md",
   "static/media/guiaugusto.jpg": "static/media/guiaugusto.029756c4.jpg",
@@ -48,6 +49,7 @@
   "static/media/qualidade.md": "static/media/qualidade.f0f45e33.md",
   "static/media/roadmap-papeis.md": "static/media/roadmap-papeis.046fe6aa.md",
   "static/media/roadmap.md": "static/media/roadmap.e81c2d9f.md",
+  "static/media/telegram.gif": "static/media/telegram.9a3520fa.gif",
   "static/media/template-abertura-sprint.md": "static/media/template-abertura-sprint.7086b60d.md",
   "static/media/template-fechamento-sprint.md": "static/media/template-fechamento-sprint.3bbccd5d.md",
   "static/media/termo-de-abertura.md": "static/media/termo-de-abertura.550cb213.md"
