@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.cbe52858.css",
   "main.css.map": "static/css/main.cbe52858.css.map",
-  "main.js": "static/js/main.2012e41d.js",
-  "main.js.map": "static/js/main.2012e41d.js.map",
+  "main.js": "static/js/main.9018f07c.js",
+  "main.js.map": "static/js/main.9018f07c.js.map",
   "static/media/Abertura-Sprint-0.md": "static/media/Abertura-Sprint-0.02489b23.md",
   "static/media/Abertura-Sprint-1.md": "static/media/Abertura-Sprint-1.f789034e.md",
   "static/media/Abertura-Sprint-2.md": "static/media/Abertura-Sprint-2.3a0c57bd.md",
@@ -28,6 +28,7 @@
   "static/media/escopo.md": "static/media/escopo.bd462746.md",
   "static/media/evm.md": "static/media/evm.ba483976.md",
   "static/media/gabriel.jpg": "static/media/gabriel.9d6d6039.jpg",
+  "static/media/gitflow.md": "static/media/gitflow.d4ce7697.md",
   "static/media/guiaugusto.jpg": "static/media/guiaugusto.029756c4.jpg",
   "static/media/guila.jpeg": "static/media/guila.816e111c.jpeg",
   "static/media/guilhesme.jpg": "static/media/guilhesme.b988c64c.jpg",
