@@ -77,6 +77,10 @@ const docs = [
         link: "/doc-evm"
       },
       {
+        name: "Práticas Ágeis",
+        link: "/doc-praticas-ageis"
+      },
+      {
         name: "Quadro de Conhecimentos",
         link: "/doc-quadro-de-conhecimentos"
       },
