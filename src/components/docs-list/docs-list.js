@@ -65,6 +65,10 @@ const docs = [
         link: "/doc-arquitetura"
       },
       {
+        name: "Documento de Qualidade",
+        link: "/doc-qualidade"
+      },
+      {
         name: "Plano de Comunicação",
         link: "/doc-plano-comunicacao"
       },
