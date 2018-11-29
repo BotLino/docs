@@ -19,6 +19,7 @@ import DocIdentidadeVisual from "../components/doc-identidade-visual/doc-identid
 import DocPlanoComunicacao from "../components/doc-plano-comunicacao/doc-plano-comunicacao";
 import DocEvm from "../components/doc-evm/doc-evm";
 import DocQuadroConhecimentos from "../components/doc-quadro-conhecimentos/doc-quadro-conhecimentos";
+import DocQualidade from "../components/doc-qualidade/doc-qualidade";
 
 export default () => (
   <BrowserRouter basename="/docs">
@@ -34,6 +35,11 @@ export default () => (
         path="/doc-arquitetura"
         exact
         render={props => <DocArq {...props} />}
+      />
+      <Route
+        path="/doc-qualidade"
+        exact
+        render={props => <DocQualidade {...props} />}
       />
       <Route path="/doc-tap" exact render={props => <DocTap {...props} />} />
       <Route path="/doc-eap" exact render={props => <DocEap {...props} />} />
