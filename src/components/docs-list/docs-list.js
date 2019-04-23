@@ -110,6 +110,15 @@ const docs = [
         link: "/doc-roadmap-papeis"
       }
     ]
+  },
+  {
+    title: "Gerência de Configuração e Evolução de Software",
+    contents: [
+      {
+        name: "Show me the code",
+        link: "/doc-show-me-the-code"
+      },
+    ]
   }
 ];
 const list = docs.map((val, i) => {
