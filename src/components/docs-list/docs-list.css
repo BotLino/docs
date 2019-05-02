@@ -1,8 +1,9 @@
 .doc-navigation {
   background-color: #dcd4bd;
   position: fixed;
-  height: 100%;
+  height: 90%;
   padding-bottom: 1em;
+  overflow-y: scroll;
 }
 
 .doc-navigation li {
