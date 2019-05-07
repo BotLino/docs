@@ -2,7 +2,7 @@
 
 <b>Data de início:</b> 04/04/2019              
 <b>Data de término:</b> 18/04/2019             
-<b>Duração:</b> 14 dias                
+<b>Duração:</b> 14 dias                  
 
 
 | Issue | Descrição | Responsáveis | Status |
@@ -12,7 +12,7 @@
 | [#18](https://github.com/BotLino/Lino/issues/18) | Integrar o CI com o novo pipeline de deploy | [luizguilherme5](https://github.com/luizguilherme5) | Em andamento |
 | [#23](https://github.com/BotLino/Lino/issues/23) | Automatização do ambiente de desenvolvimento | [vitorfhc](https://github.com/vitorfhc) | Resolvido |
 
-#### Resumo
+#### Observações
 
 <html>
 <ul>
@@ -29,6 +29,30 @@
 ---
 
 ### Sprint 2
+
+<b>Data de início:</b> 23/04/2019              
+<b>Data de término:</b> 02/05/2019          
+<b>Duração:</b> 9 dias             
+
+| Issue | Descrição | Responsáveis | Status |
+| :--: | :--: | :--: | :--: |
+| [#1](https://github.com/BotLino/Lino/issues/1) | Atualização da versão do Rasa | [amandabezerra](https://github.com/amandabezerra), [guilacerda](https://github.com/guilacerda) | Em andamento | 
+| [#5](https://github.com/BotLino/Lino/issues/5) | Implantação do monitoramento do Lino | [tayh](https://github.com/tayh) | Em andamento |
+| [#27](https://github.com/BotLino/Lino/issues/27) | Criar pipeline de deploy contínuo para ambiente de produção | [luizguilherme5](https://github.com/luizguilherme5) | Em andamento |
+| [#32](https://github.com/BotLino/Lino/issues/27) | Deploy das Spiders | [vitorfhc](https://github.com/vitorfhc) | Em andamento |
+| [#3 - docs](https://github.com/BotLino/docs/issues/3) | Melhorar visualização do menu lateral da página Documentos | [amandabezerra](https://github.com/amandabezerra) | Resolvido |
+| [#3](https://github.com/BotLino/Lino/issues/3) | Confusão no fluxo de Documentos Acadêmicos | [tayh](https://github.com/tayh) | Resolvido |
+
+#### Observações
+
+<html>
+<ul>
+
+<li> Faltam apenas alguns detalhes em relação ao funcionamento de customs actions no rasa para o fechamento da issue #1. </li>
+<li> Devido ao nível de dificuldade para a implantação de monitoramento, a issue #5 ainda não foi resolvida e espera-se dividi-la para que se possa alcançar melhores resultados. </li>
+
+</ul>
+</html>
 
 ---
 
