@@ -23,6 +23,7 @@ import DocQualidade from "../components/doc-qualidade/doc-qualidade";
 import DocPraticasAgeis from "../components/doc-praticas-ageis/doc-praticas-ageis";
 import DocGitFlow from "../components/doc-gitflow/doc-gitflow";
 import DocShowMeTheCode from "../components/doc-show-me-the-code/doc-show-me-the-code";
+import DocPrivacy from "../components/doc-privacy/doc-privacy";
 
 export default () => (
   <BrowserRouter basename="/docs">
@@ -109,6 +110,11 @@ export default () => (
         path="/doc-show-me-the-code"
         exact
         render={props => <DocShowMeTheCode {...props} />}
+      />
+      <Route
+        path="/privacy.html"
+        exact
+        render={props => <DocPrivacy {...props} />}
       />
     </Switch>
   </BrowserRouter>

@@ -58,7 +58,24 @@
 
 ### Sprint 3
 
----
+<b>Data de início:</b> 07/05/2019              
+<b>Data de término:</b> 16/05/2019          
+<b>Duração:</b> 9 dias             
+
+| Issue | Descrição | Responsáveis | Status |
+| :--: | :--: | :--: | :--: |
+| [#1](https://github.com/BotLino/Lino/issues/1) | Atualização da versão do Rasa | [amandabezerra](https://github.com/amandabezerra), [guilacerda](https://github.com/guilacerda) | Resolvido |
+| [#10](https://github.com/BotLino/Lino/issues/10) | Corrigir textos da utter_languages e utter_where_u_liv | [vitorfhc](https://github.com/vitorfhc) | Resolvido |
+| [#13](https://github.com/BotLino/Lino/issues/13) | Melhorar redundâncias em intents | [vitorfhc](https://github.com/vitorfhc) | Resolvido |
+| [#17](https://github.com/BotLino/Lino/issues/17) | Configurar Code Climate para monitorar a qualidade de código do Lino | [amandabezerra](https://github.com/amandabezerra)| Resolvido | 
+| [#18](https://github.com/BotLino/Lino/issues/18) | Integrar o CI com o novo pipeline de deploy | [luizguilherme5](https://github.com/luizguilherme5) | Resolvido |
+| [#20](https://github.com/BotLino/Lino/issues/20) | Criar fluxo para obter informações relativas ao UnB Idiomas | [luizguilherme5](https://github.com/luizguilherme5) | Em andamento |
+| [#27](https://github.com/BotLino/Lino/issues/27) | Criar pipeline de deploy contínuo para ambiente de produção | [luizguilherme5](https://github.com/luizguilherme5) | Em andamento |
+| [#30](https://github.com/BotLino/Lino/issues/30) | Generalizar o fluxo de documentos acadêmicos | [tayh](https://github.com/tayh) | Resolvido |
+| [#5 - docs](https://github.com/BotLino/docs/issues/5) | Enquadrar o repositório nos padrões recomendados para a comunidade | [guilacerda](https://github.com/guilacerda) | Resolvido |
+| [#13 - Lino-Alerta](https://github.com/BotLino/Lino-Alerta/issues/13) | Enquadrar o repositório nos padrões recomendados para a comunidade | [guilacerda](https://github.com/guilacerda) | Resolvido |
+| [#16 - Lino-Webcrawler-Matricula](https://github.com/BotLino/Lino-Webcrawler-Matricula/issues/16) | Enquadrar o repositório nos padrões recomendados para a comunidade | [guilacerda](https://github.com/guilacerda) | Resolvido |
+
 
 ### Sprint 4
 
