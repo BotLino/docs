@@ -79,6 +79,19 @@
 
 ### Sprint 4
 
+<b>Data de início:</b> 28/05/2019              
+<b>Data de término:</b> 06/06/2019          
+<b>Duração:</b>  9 dias             
+
+| Issue | Descrição | Responsáveis | Status |
+| :--: | :--: | :--: | :--: |
+| [#7](https://github.com/BotLino/Lino/issues/7) | Aprovação no facebook | [amandabezerra](https://github.com/amandabezerra), [guilacerda](https://github.com/guilacerda) | Em andamento |
+| [#16](https://github.com/BotLino/Lino/issues/16) | Criar docker-compose para subir toda a stack do Lino | [guilacerda](https://github.com/guilacerda) | Resolvido |
+| [#33](https://github.com/BotLino/Lino/issues/33) | Documentação para contribuidores iniciantes | [vitorfhc](https://github.com/vitorfhc) | Em andamento |
+| [#43](https://github.com/BotLino/Lino/issues/43) | Novo fluxo de interação com o UnB Idiomas | [luizguilherme5](https://github.com/luizguilherme5), [tayh](https://github.com/tayh)| Em andamento | 
+| [#35 - Lino-WebCrawler](https://github.com/BotLino/Lino-WebCrawler/issues/35) | Transformar pdf em texto | [guilacerda](https://github.com/guilacerda) | Resolvido |
+| [#8 - docs](https://github.com/BotLino/docs/issues/8) | Criar página para a política de privacidade | [amandabezerra](https://github.com/amandabezerra) | Resolvido |
+
 ---
 
 ### Sprint 5
