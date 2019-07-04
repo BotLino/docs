@@ -48,6 +48,38 @@
 
 As políticas de _branches_, _commits_, _pull requests_ e _issues_ se encontram [aqui](https://github.com/fga-eps-mds/2018.2-Lino/tree/master/docs/policies)
 
+### Publicação de contribuições
+
+#### Pré-requisitos
++ [npm](https://www.npmjs.com/get-npm)
+
+#### Visualização:
+Para visualizar localmente as alterações realizadas, execute os seguintes comandos no terminal:
+
+```
+$ npm install
+```
+
+```
+$ npm start
+```
+
+E acesse no seu navegador:
+
+```
+http://localhost:3000/
+```
+#### Deploy
+
+Para publicar a nova documentação, execute os seguintes comandos no terminal:
+
+```
+$ npm run predeploy
+```
+
+```
+$ npm run deploy
+```
 
 ### Licença
 
